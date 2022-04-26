@@ -3,6 +3,8 @@ import ExpenseDate from './ExpenseDate';
 
 import '../components/ExpenseItem.css';
 
+import Card from './card';
+
 
 function ExpenseItem(props) {
 
