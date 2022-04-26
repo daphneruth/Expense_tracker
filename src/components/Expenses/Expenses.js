@@ -2,9 +2,11 @@ import ExpenseItem from "./ExpenseItem";
 
 import "./Expenses.css";
 
+import Card from "./card";
+
 function Expenses(expensesProps){
  return(
-    <div>
+    <Card>
       <ExpenseItem
         title={expensesProps.expensesData[0].title}
         amount={expensesProps.expensesData[0].amount}
@@ -25,7 +27,7 @@ function Expenses(expensesProps){
         amount={expensesProps.expensesData[3].amount}
         date={expensesProps.expensesData[3].date}
       />
-    </div>
+    </Card>
   );
 }
 

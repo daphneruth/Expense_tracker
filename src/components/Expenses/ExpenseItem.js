@@ -3,7 +3,7 @@ import ExpenseDate from './ExpenseDate';
 
 import '../components/ExpenseItem.css';
 
-import Card from './card';
+import Card from '../UI/Card';
 
 
 function ExpenseItem(props) {
