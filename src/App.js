@@ -2,6 +2,8 @@ import "./App.css";
 
 import ExpenseItem from "./components/ExpenseItem";
 
+import Expenses from "./components/Expenses";
+
 function App() {
   const expense = [
     { title:" Car Insurance", amount: 300, date: new Date(2022, 4, 24) },
