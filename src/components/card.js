@@ -1,8 +1,8 @@
-import '../components/card.css';
+import '../components/Card.css';
 
-function card(){
+function Card(){
 
-return <div className="card"></div>;
+return <div className="Card"></div>;
 
 }
-export default card;
+export default Card;
