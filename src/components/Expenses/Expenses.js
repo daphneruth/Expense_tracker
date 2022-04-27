@@ -2,7 +2,7 @@ import ExpenseItem from "./ExpenseItem";
 
 import "./Expenses.css";
 
-import Card from "./card";
+import Card from "../UI/card";
 
 function Expenses(expensesProps){
  return(
