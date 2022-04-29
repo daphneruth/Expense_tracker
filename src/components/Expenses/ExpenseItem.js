@@ -1,7 +1,7 @@
 
 import ExpenseDate from './ExpenseDate';
 
-import '../components/ExpenseItem.css';
+import '../Expenses/ExpenseItem.css';
 
 import Card from '../UI/Card';
 
