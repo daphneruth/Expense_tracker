@@ -7,7 +7,8 @@ import "./App.css";
 import Expenses from "./components/Expenses/Expenses";
 
  const App = () => {
-  const expense = [
+   
+  const expenses = [
     { title: " Car Insurance", 
     amount: 300, 
     date: new Date(2022, 4, 24) },
@@ -27,7 +28,7 @@ import Expenses from "./components/Expenses/Expenses";
 
   return (
     <div>
-      <Expenses data ={expense} />
+      <Expenses data ={expenses} />
     </div>
   );
 }
