@@ -1,6 +1,6 @@
 //import '.../components/Expenses/ExpenseDate.css';
 
-import './ExpenseDate.js';
+import './ExpenseDate.css';
 
 
 function ExpenseDate(props) 

@@ -1,7 +1,7 @@
 
 import ExpenseDate from './ExpenseDate';
 
-import '../Expenses/ExpenseItem.css';
+import './ExpenseItem.css';
 
 import Card from '../UI/Card';
 
@@ -19,7 +19,7 @@ function ExpenseItem(props) {
       <div className="expense-item__description">
         <h2>{props.title}</h2></div>
       <div className="expense-item__price">${props.amount}</div>
-     <button>Change Title</button>
+     <button onClick={() => {console.log('clicked')}}>Change Title</button>
       
     </Card>
 
