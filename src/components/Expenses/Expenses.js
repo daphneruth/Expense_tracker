@@ -7,6 +7,7 @@ import "./Expenses.css";
 const Expenses = (Props) => {
 
  return(
+  
     <div className = "expenses">
       <ExpenseItem
         title={Props.data[0].title}
@@ -28,7 +29,8 @@ const Expenses = (Props) => {
         amount={Props.data[3].amount}
         date={Props.data[3].date}
       />
-    </div>
+      </div>
+    
   );
 }
 

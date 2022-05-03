@@ -1,9 +1,10 @@
 
+//import Card from '../UI/Card';
 import ExpenseDate from './ExpenseDate';
 
 import './ExpenseItem.css';
 
-//import Card from '../UI/Card';
+
 
 
 const ExpenseItem = (props) => {
@@ -28,6 +29,7 @@ const ExpenseItem = (props) => {
      <button onClick={clickHandler}>Change Title</button>
       
     </div>
+    
 
     
   );
