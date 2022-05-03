@@ -2,9 +2,11 @@ import '../UI/Card.css';
 
 const Card = (props) => {
 
-    const classes = 'card' + props.children;
+    const classes = 'Card' + props.children;
     
-return <div className={classes}></div>;
+return (
+ <div className={classes}></div>
+);
 
 }
 export default Card;
