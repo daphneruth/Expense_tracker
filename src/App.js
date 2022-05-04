@@ -27,7 +27,7 @@ import Expenses from "./components/Expenses/Expenses";
   return (
     <div>
       
-      <Expenses data ={expenses} />
+      <Expenses data = {expenses} />
     </div>
   );
 }
