@@ -2,10 +2,10 @@ import '../UI/Card.css';
 
 const Card = (props) => {
 
-    const classes = 'card' + props.children;
+    const classes = 'card ' + props.className;
     
 return (
- <div className={classes}></div>
+ <div className={classes}>{props.children} </div>
 );
 
 }
