@@ -9,8 +9,12 @@ import './ExpenseItem.css';
 
 
 const ExpenseItem = (props) => {
+
+  let title = props.title;
+
   const  clickHandler = () => {
-    console.log('clicked ');
+    title = 'updated';
+    console.log(title);
   };
 
 
