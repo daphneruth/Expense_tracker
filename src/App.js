@@ -26,7 +26,7 @@ import Expenses from "./components/Expenses/Expenses";
 
   return (
     <div>
-      
+      <h2>React app</h2>
       <Expenses data = {expenses} />
     </div>
   );
