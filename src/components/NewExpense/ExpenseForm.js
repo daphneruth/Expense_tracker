@@ -21,11 +21,21 @@ const [userInput, setUserInput ] = useState({
        });
     };
     const amountHandler = (event) => {
-        setEnteredAmount(event.target.value)
+        //setEnteredAmount(event.target.value)
+        setUserInput({
+            ...userInput,
+            enteredAmount:event.target.value,
+        });
+     
     }
 
     const datetHandler = (event) => {
-        setEnteredDate(event.target.value)
+        //setEnteredDate(event.target.value)
+        setUserInput({
+            ...userInput,
+            enteredDate:event.target.value,
+        });
+     
     }
 
 
