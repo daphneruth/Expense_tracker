@@ -3,9 +3,15 @@ import "./ExpenseForm.css";
 
 const ExpenseForm = () => {
 
-const [enteredTitle, setEnteredTitle] = useState('');
-const [enteredAmount, setEnteredAmount] = useState('');
-const [enteredDate, setEnteredDate] = useState('');
+//const [enteredTitle, setEnteredTitle] = useState('');
+//const [enteredAmount, setEnteredAmount] = useState('');
+//const [enteredDate, setEnteredDate] = useState('');
+
+const [userInput, setUserInput ] = useState({
+    enteredTitle,
+    enteredAmount,
+    enteredDate 
+})
 
     const titleHandler = (event) => {
         setEnteredTitle(event.target.value)
