@@ -14,8 +14,12 @@ const [userInput, setUserInput ] = useState({
 })
 
     const titleHandler = (event) => {
-        setEnteredTitle(event.target.value)
-    }
+       // setEnteredTitle(event.target.value)
+       setUserInput({
+           ...userInput,
+           enteredTitle:event.target.value,
+       });
+    };
     const amountHandler = (event) => {
         setEnteredAmount(event.target.value)
     }
