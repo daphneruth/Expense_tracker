@@ -3,9 +3,12 @@ import './ExpenseForm.css';
 
 const ExpenseForm = () => {
     return <form>
-        <div >
-
-        </div>
+        <div className="new-expense__controls ">
+           <div  className="new-expense__control">
+               <label>Title</label>
+               <input type={text}/>
+               </div> 
+             </div>
     </form>
     
 }
