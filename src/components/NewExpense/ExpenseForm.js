@@ -5,15 +5,20 @@ const ExpenseForm = () => {
 
 const [enteredTitle, setEnteredTitle] = useState('');
 
-    const changeHandler = (event) => (
+    const titleHandler = (event) => {
         setEnteredTitle(event.target.value)
-    )
+    }
+    const amountHandler = (event) => {}
+
+    const datetHandler = (event) => {}
+
+
   return (
     <form>
       <div className="new-expense__controls ">
         <div className="new-expense__control">
           <label>Title</label>
-          <input type="text" onChange={changeHandler} />
+          <input type="text" onChange={titleHandler} />
         </div>
         <div className="new-expense__control">
           <label>Amount</label>
