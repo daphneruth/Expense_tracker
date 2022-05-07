@@ -39,7 +39,9 @@ const [enteredDate, setEnteredDate] = useState('');
        console.log(enteredDate);
      
     }
-
+  const submitHandler = (event) => {
+    event.preventDefault();
+  }
 
   return (
     <form>
