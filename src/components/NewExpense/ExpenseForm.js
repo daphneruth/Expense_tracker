@@ -19,13 +19,13 @@ const [enteredDate, setEnteredDate] = useState('');
         //   ...userInput,
          //  enteredTitle:event.target.value,
       // });
-      console.log(enteredTitle)
+      //console.log(enteredTitle)
     };
     const amountHandler = (event) => {
         setEnteredAmount(event.target.value)
         //setUserInput({
           //  ...userInput,
-            console.log(enteredAmount);
+           // console.log(enteredAmount);
        // });
      
     }
@@ -36,12 +36,21 @@ const [enteredDate, setEnteredDate] = useState('');
           //  ...userInput,
             //enteredDate:event.target.value,
        // });
-       console.log(enteredDate);
+      // console.log(enteredDate);
      
     }
   const submitHandler = (event) => {
     event.preventDefault();
-  }
+  
+
+  const expenseData = {
+    title:enteredTitle,
+    amount:enteredAmount,
+    date:new Date (enteredDate)
+
+  };
+  console.log(expenseData())
+};
 
   return (
     <form>
