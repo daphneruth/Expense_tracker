@@ -26,9 +26,15 @@ import NewExpense from "./components/NewExpense/NewExpense";
      date: new Date(2023, 9, 30) },
   ];
 
+  const addExpenseHanler = (expenses) => 
+  {
+    console.log('In App.js');
+    console.log(expenses);
+  };
+
   return (
     <div>
-      <NewExpense />
+      <NewExpense onAddExpense ={addExpenseHanler} />
       <Expenses data = {expenses} />
     </div>
   );
