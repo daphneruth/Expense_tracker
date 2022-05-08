@@ -49,11 +49,11 @@ const [enteredDate, setEnteredDate] = useState('');
     date:new Date (enteredDate)
 
   };
-  console.log(expenseData())
+  console.log(expenseData)
 };
 
   return (
-    <form onClick={submitHandler}>
+    <form onSubmit={submitHandler}>
       <div className="new-expense__controls ">
         <div className="new-expense__control">
           <label>Title</label>
