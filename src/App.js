@@ -35,6 +35,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
   return (
     <div>
       <NewExpense onAddExpense ={addExpenseHanler  } />
+      
       <Expenses data = {expenses} />
     </div>
   );
