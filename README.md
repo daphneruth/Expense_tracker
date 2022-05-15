@@ -10,7 +10,7 @@ const [title, setTitle] = useState(props.title);
 
 # Lifting state up
 
-Lifting up the State: As we know, every component in React has its own state. Because of this sometimes data can be redundant and inconsistent. So, by Lifting up the state we make the state of the parent component as a single source of truth and pass the data of the parent in its children.
+Lifting up the State: Every component in React has its own state. Because of this sometimes data can be redundant and inconsistent. So, by Lifting up the state we make the state of the parent component as a single source of truth and pass the data of the parent in its children.
 
 Example :
 parent component - APP.JS
