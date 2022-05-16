@@ -31,7 +31,6 @@ const ExpenseItem = (props) => {
 
       </div>
   
-      
     </Card>
     
 
