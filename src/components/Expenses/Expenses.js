@@ -6,11 +6,14 @@ import Card from "../UI/Card";
 import ExpensesFilter from "./ExpensesFilter";
 
 const Expenses = (Props) => {
+  const filterChangeHandler = (selectedYear) => {
+    console.log(selectedYear)
+  }
 
  return(
   <div>
     <Card className = "expenses">
-      <ExpensesFilter/>
+      <ExpensesFilter onChange ={filterChangeHandler}/>
       <ExpenseItem
         title={Props.data[0].title}
         amount={Props.data[0].amount}
