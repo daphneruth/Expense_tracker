@@ -19,6 +19,12 @@ data required - expense.Js
 
  Data from newExpense.js file is lifted up to App.js file and through props is passed to expense.js file.
 
+ # controlled vs uncontrolled components
+
+ whenever we use two way binding, this way we are contolling the omponent 
+ example:   <ExpensesFilter selected = {filteredYear} onChangeFilter ={filterChangeHandler}/>
+
+
 
 
 
