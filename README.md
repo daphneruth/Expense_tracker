@@ -24,6 +24,10 @@ data required - expense.Js
  whenever we use two way binding, this way we are contolling the omponent 
  example:   <ExpensesFilter selected = {filteredYear} onChangeFilter ={filterChangeHandler}/>
 
+ # stateless components
+ This are components that does not perform or contain any state.they act as presentational components .
+ example : ExpenseItem file.
+
 
 
 
