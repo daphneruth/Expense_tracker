@@ -8,7 +8,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
 
  const App = () => {
    
-  const expenses = [
+  const expense = [
     { title: " Car Insurance", 
     amount: 300, 
     date: new Date(2022, 4, 24) },
@@ -26,17 +26,17 @@ import NewExpense from "./components/NewExpense/NewExpense";
      date: new Date(2023, 9, 30) },
   ];
 
-  const addExpenseHandler = (expenses) => 
+  const addExpenseHandler = (expense) => 
   {
     console.log('In App.js');
-    console.log(expenses);
+    console.log(expense);
   };
 
   return (
     <div>
       <NewExpense onAddExpense ={addExpenseHandler  } />
       
-      <Expenses data = {expenses} />
+      <Expenses data = {expense} />
     </div>
   );
 }
