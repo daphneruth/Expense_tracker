@@ -26,11 +26,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
      date: new Date(2023, 9, 30) },
   ];
 
-  const addExpenseHandler = (expense) => 
-  {
-    console.log('In App.js');
-    console.log(expense);
-  };
+  
 
   const App = () => {
 
@@ -38,6 +34,12 @@ import NewExpense from "./components/NewExpense/NewExpense";
 
  setExpenses();
  
+ const addExpenseHandler = (expense) => 
+ {
+   console.log('In App.js');
+   console.log(expense);
+ };
+
   return (
     <div>
       <NewExpense onAddExpense ={addExpenseHandler  } />
