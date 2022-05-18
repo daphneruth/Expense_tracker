@@ -33,11 +33,9 @@ import NewExpense from "./components/NewExpense/NewExpense";
  const [expenses, setExpenses] =useState(undefExpenses);
 
  setExpenses();
- 
+
  const addExpenseHandler = (expense) => 
  {
-   console.log('In App.js');
-   console.log(expense);
  };
 
   return (
