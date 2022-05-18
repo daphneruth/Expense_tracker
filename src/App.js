@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 import "./App.css";
 
@@ -6,9 +6,9 @@ import Expenses from "./components/Expenses/Expenses";
 
 import NewExpense from "./components/NewExpense/NewExpense";
 
- const App = () => {
+ 
    
-  const expenses = [
+  const  undefExpenses = [
     { title: " Car Insurance", 
     amount: 300, 
     date: new Date(2022, 4, 24) },
@@ -32,6 +32,12 @@ import NewExpense from "./components/NewExpense/NewExpense";
     console.log(expense);
   };
 
+  const App = () => {
+
+ const [expenses, setExpenses] =useState(undefExpenses);
+
+ setExpenses();
+ 
   return (
     <div>
       <NewExpense onAddExpense ={addExpenseHandler  } />
