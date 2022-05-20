@@ -14,7 +14,7 @@ const Expenses = (Props) => {
   }
 
  const filteredExpenses = Props.items.filter(expense =>{
-   return expense.data.
+   return expense.data.getFullYear().toString() === filteredYear
  })
 
  return(
