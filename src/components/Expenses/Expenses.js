@@ -13,6 +13,10 @@ const Expenses = (Props) => {
     setfilteredYear(selectedYear);
   }
 
+ const filteredExpenses = Props.items.filter(expense =>{
+   return expense.data.
+ })
+
  return(
   <div>
     <Card className = "expenses">
