@@ -36,8 +36,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
 
  const addExpenseHandler = (expense) => 
  {
-   setExpenses((prevExpenses) =>
-   {
+   setExpenses((prevExpenses) =>{
      return [expense, ...prevExpenses];
    })
  };

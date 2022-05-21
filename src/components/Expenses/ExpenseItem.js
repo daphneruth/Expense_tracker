@@ -21,7 +21,7 @@ const ExpenseItem = (props) => {
 
     <Card className="expense-item">
 
-      <ExpenseDate   date = {props.date} />
+      <ExpenseDate  date = {props.date} />
 
       <div className="expense-item__description">
 
