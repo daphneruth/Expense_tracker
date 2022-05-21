@@ -30,7 +30,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
 
   const App = () => {
 
- const [expenses, setExpenses] =useState(undefExpenses);
+ const [expenses, setExpenses] = useState(undefExpenses);
 
  setExpenses();
 
