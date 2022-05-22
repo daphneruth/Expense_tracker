@@ -10,11 +10,7 @@ const ExpenseForm = (props) => {
   
   const titleHandler = (event) => {
     setEnteredTitle(event.target.value);
-    // setUserInput({
-    //   ...userInput,
-    //  enteredTitle:event.target.value,
-    // });
-    //console.log(enteredTitle)
+   
   };
   const amountHandler = (event) => {
     setEnteredAmount(event.target.value);
