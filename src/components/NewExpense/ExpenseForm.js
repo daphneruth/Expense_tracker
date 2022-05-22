@@ -22,12 +22,7 @@ const ExpenseForm = (props) => {
 
   const dateHandler = (event) => {
     setEnteredDate(event.target.value);
-    //setUserInput({
-    //  ...userInput,
-    //enteredDate:event.target.value,
-    // });
-    // console.log(enteredDate);
-  };
+   x
   const submitHandler = (event) => {
     event.preventDefault();
   
