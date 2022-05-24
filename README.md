@@ -12,12 +12,12 @@ const [title, setTitle] = useState(props.title);
 
 - Lifting up the State: Every component in React has its own state. Because of this sometimes data can be redundant and inconsistent. So, by Lifting up the state we make the state of the parent component as a single source of truth and pass the data of the parent in its children.
 
-Example :
-parent component - APP.JS
-data generated - NewExpense.Js
-data required - expense.Js
+- Example :
+- parent component - APP.JS
+- data generated - NewExpense.Js
+- data required - expense.Js
 
- Data from newExpense.js file is lifted up to App.js file and through props is passed to expense.js file.
+ - Data from newExpense.js file is lifted up to App.js file and through props is passed to expense.js file.
 
  # controlled vs uncontrolled components
 
