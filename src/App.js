@@ -34,11 +34,10 @@ import NewExpense from "./components/NewExpense/NewExpense";
 
  setExpenses();
 
- const addExpenseHandler = (expense) => 
- {
+ const addExpenseHandler = (expense) => {
    setExpenses((prevExpenses) =>{
      return [expense, ...prevExpenses];
-   })
+   });
  };
 
   return (
