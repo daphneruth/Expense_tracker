@@ -32,7 +32,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
 
  const [expenses, setExpenses] = useState(undefExpenses);
 
- setExpenses();
+ //setExpenses();
 
  const addExpenseHandler = (expense) => {
    setExpenses((prevExpenses) =>{
@@ -44,7 +44,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
     <div>
      <NewExpense onAddExpense = {addExpenseHandler  } />
       
-      <Expenses data = {expenses} />
+      <Expenses data ={expenses} />
     </div>
   );
 }
