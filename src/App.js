@@ -44,7 +44,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
     <div>
      <NewExpense onAddExpense = {addExpenseHandler  } />
       
-      <Expenses data ={expenses} />
+      <Expenses items ={expenses} />
     </div>
   );
 }
