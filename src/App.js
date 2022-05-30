@@ -33,7 +33,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
  const [expenses, setExpenses] = useState(undefExpenses);
 
  //setExpenses();
-//updating state 
+
  const addExpenseHandler = (expense) => {
    setExpenses((prevExpenses) =>{
      return [expense, ...prevExpenses];
@@ -42,8 +42,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
 
   return (
     <div>
-     <NewExpense onAddExpense = {addExpenseHandler  } />
-      
+     <NewExpense onAddExpense = {addExpenseHandler} />
       <Expenses items ={expenses} />
     </div>
   );
