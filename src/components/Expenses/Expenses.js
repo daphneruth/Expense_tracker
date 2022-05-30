@@ -39,7 +39,7 @@ const Expenses = (props) => {
        onChangeFilter={filterChangeHandler}
        />
 
-     <expenseContent/>
+     {expenseContent}
       
       </Card>
       </div>
