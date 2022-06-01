@@ -22,6 +22,7 @@ const Expenses = (props) => {
 
  return (
   <div>
+    <li>
     <Card className = "expenses">
 
       <ExpensesFilter
@@ -32,6 +33,7 @@ const Expenses = (props) => {
      <ExpenseList items= {filteredExpenses}/>
       
       </Card>
+     </li>
       </div>
     
   );
