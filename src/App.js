@@ -32,7 +32,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
 
  const [expenses, setExpenses] = useState(undefExpenses);
 
- //setExpenses();
+
 
  const addExpenseHandler = (expense) => {
    setExpenses((prevExpenses) =>{
