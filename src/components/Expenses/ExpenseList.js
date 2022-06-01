@@ -1,8 +1,11 @@
 import React from "react";
 import ExpenseItem from "./ExpenseItem";
 
-const ExpenseList = () => {
-    
+const ExpenseList = (props) => {
+    const filteredExpenses =props.items.filter((expense) => {
+
+        return expense.date.getFullYear().toString() === filteredYear;
+        })
    let expenseContent = <p>No Expenses found</p>
     
         if (filteredExpenses.length > 0) {
