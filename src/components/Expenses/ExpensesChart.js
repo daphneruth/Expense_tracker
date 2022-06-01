@@ -21,7 +21,7 @@ import Chart from "../Chart/Chart";
           chartDataPoints[expenseMonth].value += expense.amount
       }
      return (
-        <Chart/>
+        <Chart datapoints = {chartDataPoints}/>
      )
  }
  export default ExpensesChart;
