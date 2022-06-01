@@ -1,15 +1,11 @@
 import React from "react";
 import ExpenseItem from "./ExpenseItem";
 
-const ExpenseList = (props) => {
-    const filteredExpenses =props.items.filter((expense) => {
 
-        return expense.date.getFullYear().toString() === filteredYear;
-        })
    let expenseContent = <p>No Expenses found</p>
     
-        if (filteredExpenses.length > 0) {
-         expenseContent = filteredExpenses.map( (expense) =>(
+        if (props.items.length > 0) {
+         expenseContent =props.items.map( (expense) =>(
          <ExpenseItem
                key = {expense.id}
                title = {expense.title}
@@ -18,5 +14,5 @@ const ExpenseList = (props) => {
              />  
          ) )  
 }
-}
+ 
 export default ExpenseList;
