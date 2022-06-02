@@ -25,9 +25,9 @@ const ExpenseForm = (props) => {
   
     const expenseData = {
       title: enteredTitle,
-      amount: enteredAmount,
+      amount: +enteredAmount,
      date: new Date(enteredDate),
-    }
+    };
 
     props.onSaveExpenseData();
     
@@ -43,7 +43,7 @@ const ExpenseForm = (props) => {
           <label>Title</label>
           <input
            type="text" 
-          value={enteredTitle}
+          value={expenseData.title.enteredTitle}
            onChange={titleHandler} />
         </div>
         <div className="new-expense__control">
