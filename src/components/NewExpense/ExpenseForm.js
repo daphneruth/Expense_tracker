@@ -3,15 +3,16 @@ import React, { useState } from "react";
 import "./ExpenseForm.css";
 
 const ExpenseForm = (props) => {
-  const [enteredTitle, setEnteredTitle] = useState("");
-  const [enteredAmount, setEnteredAmount] = useState("");
-  const [enteredDate, setEnteredDate] = useState("");
+  const [enteredTitle, setEnteredTitle] = useState('');
+  const [enteredAmount, setEnteredAmount] = useState('');
+  const [enteredDate, setEnteredDate] = useState('');
 
   
   const titleHandler = (event) => {
     setEnteredTitle(event.target.value);
    
   };
+
   const amountHandler = (event) => {
     setEnteredAmount(event.target.value);
     
@@ -19,7 +20,7 @@ const ExpenseForm = (props) => {
 
   const dateHandler = (event) => {
     setEnteredDate(event.target.value);
-  
+  }
   const submitHandler = (event) => {
     event.preventDefault();
   
@@ -75,6 +76,6 @@ const ExpenseForm = (props) => {
       </div>
     </form>
   );
-  }}
+  };
 
 export default ExpenseForm;
