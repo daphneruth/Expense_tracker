@@ -1,6 +1,6 @@
 # Components
 - react components can defines as functions or as classes.
-As a function: ` const App () => {`
+As a function: ` const App = () => {`
                       ` return;`
                  `}`
  As a class: `class App extends React.Components{`
@@ -12,6 +12,10 @@ As a function: ` const App () => {`
 
 # Props
 - props enable passing of attributes to custom elements. They are objects that hold information to control the behavior of that particular component.
+Example: ` const App = (props) => {`
+                      ` return (`
+                          `<Header title= {props.title}>  `
+                 `}`
 
 # States
 - Objects that hold some information that may change over the lifetime of  component.They are not updated explicitly for state will not be ble to detect changes made.
