@@ -14,7 +14,7 @@ As a function: ` const App = () => {`
 - props enable passing of attributes to custom elements. They are objects that hold information to control the behavior of that particular component.
 Example: ` const App = (props) => {`
                       ` return (`
-                          `<Header title= {props.title}>  `
+                          `<H1> {props.title}> </H1> `
                  `}`
 
 # States
