@@ -1,3 +1,15 @@
+# Components
+- react components can defines as functions or as classes.
+As a function: ` const App () => {`
+                      ` return;`
+                 `}`
+ As a class: `class App extends React-components{`
+            `render() {`
+            `return`
+
+            `}`
+ }                
+
 # Props
 - props enable passing of attributes to custom elements. They are objects that hold information to control the behavior of that particular component.
 
