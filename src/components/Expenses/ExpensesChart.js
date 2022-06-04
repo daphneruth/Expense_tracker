@@ -21,10 +21,9 @@ import Chart from "../Chart/Chart";
           const expenseMonth =expense.date.getMonth();
           chartDataPoints[expenseMonth].value += expense.amount;
       }
-     return (
-         <div>
+     return 
         <Chart datapoints = {chartDataPoints}/>
-     </div>)
+     
      
  }
  export default ExpensesChart;
