@@ -3,7 +3,7 @@
 As a function: ` const App () => {`
                       ` return;`
                  `}`
- As a class: `class App extends React-components{`
+ As a class: `class App extends React.Components{`
             `render() {`
             `return`
 
